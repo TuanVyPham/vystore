@@ -1,0 +1,239 @@
+ <!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pham Tuan Vy
+ID: 3989482
+Acknowledgement: Acknowledge the resources that you use here.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore Web</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="Images/Logo/logo.jpg" class="logo" alt="LoGo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a class="active" href="bestsellers.html">Bestsellers</a></li>
+            
+                <li id=""><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-window-close"></i></a>
+
+
+            </ul>
+        </div>
+        <div id="tablet">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#ReadWell</h2>
+        <p>One of the world's biggest online bookstore!</p>
+    </section>
+
+    <section id="book-container" class="section-p1">
+        <h2>Best Sellers for Adult</h2>
+        <div class="book">
+
+            <div class="book1" onclick="window.location.href='bs1.html'">
+                <img src="Images/Bestseller/best1.webp" alt="Book">
+                <div class="infor">
+                    <span>Spare</span>
+                    <h4>Andrew Barger</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$27.42</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs2.html'" >
+                <img src="Images/Bestseller/best5.webp" alt="Book">
+                <div class="infor">
+                    <span>Amber Smith</span>
+                    <h4>The Way I used to Be</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.57</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs3.html'">
+                <img src="Images/Bestseller/best6.webp" alt="Book">
+                <div class="infor">
+                    <span>Sammy Dunn</span>
+                    <h4>The Outsiders</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.18</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs4.html'">
+                <img src="Images/Bestseller/best7.webp" alt="Book">
+                <div class="infor">
+                    <span>Holly Jackson</span>
+                    <h4>As Good as Dead</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$16.08</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section id="book-container" class="section-p1">
+        <h2>Best Sellers for Children</h2>
+        <div class="book">
+            <div class="book1" onclick="window.location.href='bs5.html'">
+                <img src="Images/Bestseller/best4.webp" alt="Book">
+                <div class="infor">
+                    <span>Dr.Seuss</span>
+                    <h4>Green Eggs and Ham</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$17.8</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs6.html'">
+                <img src="Images/Bestseller/best8.webp" alt="Book">
+                <div class="infor">
+                    <span>Amelia Hepworth</span>
+                    <h4>I Love You to The Moon and Back</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>14.26</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs7.html'">
+                <img src="Images/Bestseller/bs11.webp" alt="Book">
+                <div class="infor">
+                    <span>Emily Ann</span>
+                    <h4>Every Bunny is a Yoga Bunny</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$12.74</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1" onclick="window.location.href='bs8.html'">
+                <img src="Images/Bestseller/best9.webp" alt="Book">
+                <div class="infor">
+                    <span>Dana Wyss</span>
+                    <h4>The Invisible String Workbook</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$17.8</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <footer id="footer-section" class="section-p1">
+
+        <div>
+            <img src="Images/Logo/logo.jpg" class="col1" alt="logo">
+
+        </div>
+        <div class="col2">
+           
+            <h4><a href="contact.html">Contact</a></h4>
+            <p><strong>Address: </strong> 21 Truong Chinh Street, Ward 14, Tan Binh District </p>
+            <p><strong>Phone: </strong> 0989799999 </p>
+            <p><strong>Working Time: </strong> 08:00 - 20:00, Mon - Sat </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col3">
+            <h4>About</h4>
+            <p><a href="contact.html">About Us</a></p>
+                <p><a href="contact.html">Privacy Policy</a></p>
+                    <p><a href="contact.html">Terms</a></p>
+                        <p><a href="contact.html">Copyright</a></p>
+        </div>
+
+    </footer>
+
+<!-- custom javascript file link -->   
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>

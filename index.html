@@ -1,0 +1,398 @@
+ <!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pham Tuan Vy
+ID: 3989482
+Acknowledgement: Acknowledge the resources that you use here.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore Web</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="Images/Logo/logo.jpg" class="logo" alt="LoGo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="bestsellers.html">Bestsellers</a></li>
+
+                <li id=""><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-window-close"></i></a>
+
+
+            </ul>
+        </div>
+        <div id="tablet">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="main">
+        <h4>Online BookStore</h4>
+        <h2>Unlimited Knowledge Updates</h2>
+        <h1>Right at Your Home</h1>
+        <p>One of the world's biggest online bookstore!</p>
+        <button onclick="window.location.href='shop.html'">Buy Now</button>
+    </section>
+
+    <section id="book-container" class="section-p1">
+        <h2>Featured Books</h2>
+        <p>August Collection</p>
+        <div class="book">
+            <div class="book1">
+                <img src="Images/Book/book1.webp" alt="Book">
+                <div class="infor">
+                    <span>Colm Tóibín</span>
+                    <h4>The Magician</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$15.8</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book2.webp" alt="Book">
+                <div class="infor">
+                    <span>Andrew Barger</span>
+                    <h4>Witchcraft</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$18.99</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book3.webp" alt="Book">
+                <div class="infor">
+                    <span>Wilbur Smith</span>
+                    <h4>Nemesis</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$15.02</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book4.webp" alt="Book">
+                <div class="infor">
+                    <span>Joseph Conrad</span>
+                    <h4>Heart of Darkness</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$17.8</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book5.webp" alt="Book">
+                <div class="infor">
+                    <span>Louis De Bernières</span>
+                    <h4>The Autumn of the Ace</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.57</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book6.webp" alt="Book">
+                <div class="infor">
+                    <span>Ulrich Alexander Boschwitz</span>
+                    <h4>The Passenger</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.18</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book7.webp" alt="Book">
+                <div class="infor">
+                    <span>Lissa Evans</span>
+                    <h4>V for Victory</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$16.08</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Book/book8.webp" alt="Book">
+                <div class="infor">
+                    <span>Markus Zusak</span>
+                    <h4>The Book Thief</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.26</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4>Discount Event</h4>
+        <h2>Up to <span>30%</span> off for all products on August 18th</h2>
+        <h6>The promotion is only valid for 2 books per person</h6>
+        <button class="button1" onclick="window.location.href='shop.html'">Buy Now</button>
+    </section>
+
+    <section id="book-container" class="section-p1">
+        <h2>Bestseller</h2>
+        <p>Bestselling literary works of 2023</p>
+        <div class="book">
+            <div class="book1">
+                <img src="Images/Bestseller/best1.webp" alt="Book">
+                <div class="infor">
+                    <span>Prince Harry</span>
+                    <h4>Spare</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$27.42</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best2.webp" alt="Book">
+                <div class="infor">
+                    <span>Colleen Hoover</span>
+                    <h4>Verity</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$18.99</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best3.webp" alt="Book">
+                <div class="infor">
+                    <span>Colleen Hoover</span>
+                    <h4>Ugly Love</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$15.02</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best4.webp" alt="Book">
+                <div class="infor">
+                    <span>Dr. Seuss</span>
+                    <h4>Green Eggs and Ham</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$17.8</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best5.webp" alt="Book">
+                <div class="infor">
+                    <span>Amber Smith</span>
+                    <h4>The Way I Used to Be</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.57</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best6.webp" alt="Book">
+                <div class="infor">
+                    <span>Sammy Dunn</span>
+                    <h4>The Outsiders</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.18</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best7.webp" alt="Book">
+                <div class="infor">
+                    <span>Holly Jackson</span>
+                    <h4>As Good as Dead</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$16.08</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+            <div class="book1">
+                <img src="Images/Bestseller/best8.webp" alt="Book">
+                <div class="infor">
+                    <span>Amelia Hepworth</span>
+                    <h4>I Love You to the Moon and Back</h4>
+                    <div class="rate">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h6>$14.26</h6>
+                </div>
+                <a href="#"><a class="fa-solid fa-bag-shopping cart"></a></a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="smallbanner" class="section-p1">
+        <div class="banner-box">
+            <h4>Crazy Deals</h4>
+            <h2>Buy 1 get 1 Free</h2>
+            <button class="button2" onclick="window.location.href='shop.html'">Shop Now</button>
+        </div>
+
+        <div class="banner-box2">
+            <h4>Book of Century</h4>
+            <h2>The books have been buying most in century </h2>
+            <button class="button2" onclick="window.location.href='bestsellers.html'">Explore More</button>
+        </div>
+    
+    </section>
+
+    <footer id="footer-section" class="section-p1">
+
+        <div>
+            <img src="Images/Logo/logo.jpg" class="col1" alt="logo">
+
+        </div>
+        <div class="col2">
+           
+            <h4><a href="contact.html">Contact</a></h4>
+            <p><strong>Address: </strong> 21 Truong Chinh Street, Ward 14, Tan Binh District </p>
+            <p><strong>Phone: </strong> 0989799999 </p>
+            <p><strong>Working Time: </strong> 08:00 - 20:00, Mon - Sat </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col3">
+            <h4>About</h4>
+            <p><a href="contact.html">About Us</a></p>
+                <p><a href="contact.html">Privacy Policy</a></p>
+                    <p><a href="contact.html">Terms</a></p>
+                        <p><a href="contact.html">Copyright</a></p>
+        </div>
+
+    </footer>
+
+<!-- custom javascript file link -->   
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>

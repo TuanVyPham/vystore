@@ -1,0 +1,167 @@
+ <!-- RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Pham Tuan Vy
+ID: 3989482
+Acknowledgement: Acknowledge the resources that you use here.  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStore Web</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="Images/Logo/logo.jpg" class="logo" alt="LoGo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="bestsellers.html">Bestsellers</a></li>
+                
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-window-close"></i></a>
+
+
+            </ul>
+        </div>
+        <div id="tablet">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#Knowusmore</h2>
+        <p>Contact us whenever you need</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Book</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Images/Book/book1.webp" alt="product-image"></td>
+                    <td>The Magician</td>
+                    <td>$15.8</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$15.8</td>
+
+
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Images/Book/book2.webp" alt="product-image"></td>
+                    <td>Witchcraft</td>
+                    <td>$18.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$18.99</td>
+
+
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="Images/Book/book3.webp" alt="product-image"></td>
+                    <td>Nemesis</td>
+                    <td>$15.2</td>
+                    <td><input type="number" value="3"></td>
+                    <td>$45.6</td>
+
+
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="button1">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 49.99</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 49.99</strong></td>
+
+                </tr>
+            </table>
+            <button class="button1">Proceed to checkout</button>
+        </div>
+    </section>
+
+
+
+    <footer id="footer-section" class="section-p1">
+
+        <div>
+            <img src="Images/Logo/logo.jpg" class="col1" alt="logo">
+
+        </div>
+        <div class="col2">
+           
+            <h4><a href="contact.html">Contact</a></h4>
+            <p><strong>Address: </strong> 21 Truong Chinh Street, Ward 14, Tan Binh District </p>
+            <p><strong>Phone: </strong> 0989799999 </p>
+            <p><strong>Working Time: </strong> 08:00 - 20:00, Mon - Sat </p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col3">
+            <h4>About</h4>
+            <p><a href="contact.html">About Us</a></p>
+                <p><a href="contact.html">Privacy Policy</a></p>
+                    <p><a href="contact.html">Terms</a></p>
+                        <p><a href="contact.html">Copyright</a></p>
+        </div>
+
+    </footer>
+
+<!-- custom javascript file link -->   
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
